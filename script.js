@@ -1,5 +1,8 @@
-let phrase = prompt("Введіть своє ім'я!");
+let num1 = +prompt("Введіть перше число");
+let num2 = +prompt("Введіть друге число");
 
-for(let i = 0; i < phrase.length; i++) {
-    console.log(phrase[i]);
+function add(a, b) {
+    alert("Сума: " + (a + b));
 }
+
+add(num1, num2);
